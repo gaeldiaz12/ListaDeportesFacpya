@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Deportes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #FF0000, #FF6347);
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .sports-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .sport-item {
+            background-color: #fff;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .sport-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 5px solid #FF0000;
+        }
+
+        .sport-item a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5rem;
+            padding: 15px;
+            background: linear-gradient(135deg, #FF0000, #FF6347);
+            border-radius: 0 0 15px 15px;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .sport-item a:hover {
+            background: linear-gradient(135deg, #B22222, #FF4500);
+            transform: scale(1.05);
+        }
+
+        .sport-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de Deportes</h1>
+    </header>
+
+    <div class="sports-grid">
+        <div class="sport-item">
+            <img src="https://www.caracteristicasdel.com/wp-content/uploads/2022/10/Futbol.jpg" alt="Fútbol">
+            <a href="futbol.html">Futbol Soccer</a>
+        </div>
+        <div class="sport-item">
+            <img src="http://sialdeporte.com/wp-content/uploads/2018/01/futbol-de-la-fifa-1.jpg" alt="Fútbol">
+            <a href="Soccer Mayor.html">Futbol Soccer Varonil Mayor</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://i.ytimg.com/vi/Es_6pfis1YA/maxresdefault.jpg" alt="Basketball">
+            <a href="Soccer femenil.html">Futbol soccer Femenil Mayor</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.llyg7qgFlFlr-Pxy2w81nAAAAA&pid=Api&P=0&h=180" alt="Soccer rapido">
+            <a href="soccer rapido.html">Futbol soccer rapido</a>
+        </div>
+        <div class="sport-item">
+            <img src="http://conocelahistoria.com/wp-content/uploads/2018/08/Historia-del-futbol-americano-3.jpg" alt="Futbol Americano">
+            <a href="Futbol Americano.html">Futbol Americano</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.ZffIj2XVVL1BaENIac6k_QHaEK&pid=Api&P=0&h=180" alt="Futbol Americano">
+            <a href="Prep FIsico.html">Futbol Americano y Prep Fisico</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tvazteca.brightspotcdn.com/dims4/default/2de497a/2147483647/strip/true/crop/4528x2547+0+221/resize/1408x792!/format/jpg/quality/90/?url=https:%2F%2Ftvazteca.brightspotcdn.com%2F38%2Ffe%2Fd5fa007a44a7a3199dfaae859c47%2Fgettyimages-1332047453.jpg" alt="Basquet">
+            <a href="Basquetbol Varonil.html">Basquetbol Varonil</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.0q5KJwIU9cqJjSSz8uiEgQHaEK&pid=Api&P=0&h=180" alt="Basquet">
+            <a href="Basquetbol Femenil.html">Basquetbol Femenil</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.Gsdle7WtdHw0a78mNJ7NkgHaEK&pid=Api&P=0&h=180" alt="Basquet">
+            <a href="Basquetbol 3x3.html">Basquetbol 3x3</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.utHkNpJOZLjhUeUdfoRYDAHaE7&pid=Api&P=0&h=180" alt="Atletismo">
+            <a href="Atletismo.html">Atletismo</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.arqxwCvOmZpWaiR7-TAreQHaE7&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Beisbol.html">Beisbol/Softbol</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.MfVRRqBuwoL1q7d3-rghpAHaFj&pid=Api&P=0&h=180" alt="Ajedrez">
+            <a href="Ajedrez.html">Ajedrez</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://1.bp.blogspot.com/-22Ky5Qhd0n8/ULQvXn3I0jI/AAAAAAAAAMU/UfuaxZy4X18/s1600/trabajar+en+equipo.jpg" alt="Beisbol">
+            <a href="Animacion.html">Animacion</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.WPjZ8iI2xwdyEFe77Oc8KwHaEK&pid=Api&P=0&h=180" alt="BOLICHE/FRONTON/RAQUETBOL">
+            <a href="Fronton.html">Fronton</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://storage.googleapis.com/static.elsoldemexico.com.mx/elesto/nota-panamericanos-raquetbol.jpg" alt="BOLICHE/FRONTON/RAQUETBOL">
+            <a href="Raquetbol.html">Raquetbol</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.pPrV9kodz7Dq53SpB5tK-QHaE7&pid=Api&P=0&h=180" alt="BOLICHE/FRONTON/RAQUETBOL">
+            <a href="Boliche.html">Boliche</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.lVujj9b_S62xWTkDZQYHBAHaEo&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Box.html">Box</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Ap8u_YaXUvduSP2IZ17HIAHaE8&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Ciclismo.html">Ciclismo</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://www.adtonos.com/wp-content/uploads/2022/12/team-playing-esports-game-on-computer-in-internet-2021-12-09-13-29-17-utc-scaled.jpg" alt="Beisbol">
+            <a href="E sports.html">E sports</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://i0.wp.com/rxfitters.com/wp-content/uploads/2017/05/Todo-sobre-la-halterofilia.jpg?resize=850%2C637&ssl=1" alt="Beisbol">
+            <a href="Halterofilia.html">Halterofilia</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.-XflJIN3J-IE2vdGsEkBHwHaE7&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Judo.html">Judo</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.X4hAqZgGENE5Pkso0hfQ4gHaE8&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Handball Varonil.html">Handball Varonil</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.zOT2JGY-eIZ0qtaJPtuhCQHaEM&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Handball Femenil.html">Handball Femenil</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://wallpaperaccess.com/full/323903.jpg" alt="Beisbol">
+            <a href="Karate do.html">Karate Do</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.-YfguHA69Wu7UcAbiYac-QHaEK&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Limalama.html">Limalama</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://s3.superluchas.com/2016/03/lucha-olimpica1.jpg" alt="Beisbol">
+            <a href="Lucha olimpica.html">Lucha olimpica</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.2K3EKo-rbdfT2O8YXF_ZEwHaEK&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Natacion.html">Natacion</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.LwqF3-LGzuGNpMtyfvdr9QHaE7&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Rugby.html">Rugby</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.-L0dPMZxCLcmfAGaID35VQHaE7&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Taekwondo.html">Tae kwon do</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://wallpaperaccess.com/full/690571.jpg" alt="Beisbol">
+            <a href="Tkd.html">Tkd Formas/Poomse</a>
+        </div>
+        <div class="sport-item">
+            <img src="https://www.gob.mx/cms/uploads/image/file/660837/Selecci_n_de_softbol_brilla_ante_Florida_en_su_preparaci_n_rumbo_a_Tokio_2020__4_.jpeg" alt="Beisbol">
+            <a href="Softbol Femenil A.html">Softbol femenil A</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://www.gob.mx/cms/uploads/image/file/660837/Selecci_n_de_softbol_brilla_ante_Florida_en_su_preparaci_n_rumbo_a_Tokio_2020__4_.jpeg" alt="Beisbol">
+            <a href="Softbol Femenil B.html">Softbol Femenil B</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://sialdeporte.com/wp-content/uploads/2018/01/C%C3%B3mo-se-juega-el-tenis-de-mesa-1.jpg" alt="Beisbol">
+            <a href="Tenis de mesa.html">Tenis de mesa</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.JOXkxbRsSAczD8MyFcdV_gHaE8&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Tenis.html">Tenis</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.baYJkyDZKZZM0E1JN8TErgHaFK&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Tochito.html">Tochito</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://www.uanl.mx/wp-content/uploads/2018/05/Voleibol-semifinal-varonil_DESCARGA2.jpg" alt="Beisbol">
+            <a href="Voleibol sala.html">Voleibol Sala</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.HdAFJzYhTKMGhFVgwv_-KgHaE7&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Voleibol playa.html">Voleibol Playa</a>
+        </div>
+                <div class="sport-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.zsEaxVaJgiI8hei_UST40AHaEq&pid=Api&P=0&h=180" alt="Beisbol">
+            <a href="Wushu kun fu.html">Wushu Kun FU</a>
+        </div>
+        <!-- Agrega 34 elementos más siguiendo este formato -->
+    </div>
+</body>
+</html>

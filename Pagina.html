@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes FACPYA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: url('https://www.laporta2010.cat/wp-content/uploads/2022/08/deportes-1-scaled.jpg') no-repeat center center/cover;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 1.5rem;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deportes FACPYA</h1>
+    </header>
+
+    <a href="deportes.html">Ver Deportes</a>
+</body>
+</html>
